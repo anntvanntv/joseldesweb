@@ -63,7 +63,9 @@ nav {
         padding-left: 0;
         left: 0;
         display: none;
-        background: white;
+        background: #000000c4;
+        z-index: 300;
+        backdrop-filter: blur(2px);
       }
   
       ul li:hover > ul,
